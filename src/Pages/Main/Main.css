@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+
+  .left {
+    flex: 1;
+    height: 100vh;
+    padding: 30px;
+    background-color: #fbf7ed;
+    overflow-y: auto;
+
+    .movies-list {
+      margin-top: 40px;
+    }
+  }
+
+  .right {
+    color: white;
+    overflow-y: auto;
+    flex: 1;
+    padding: 30px;
+    height: 100vh;
+    background-color: #004c3f;
+  }
+}

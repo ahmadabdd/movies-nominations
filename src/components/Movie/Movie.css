@@ -1,0 +1,26 @@
+.movie-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px 0;
+  height: 50px;
+  border-bottom: 1px solid black;
+
+  .left-container {
+    .title {
+      color: #004c3f;
+      margin: 0;
+    }
+    .info {
+      color: #42474c;
+      text-transform: capitalize;
+      margin-top: 2px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

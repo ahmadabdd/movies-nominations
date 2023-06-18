@@ -1,0 +1,29 @@
+.nominated-movie-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px;
+
+  .nominated-movie {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+    .index {
+    }
+    .poster {
+      height: 190px;
+      border-radius: 10px;
+    }
+    .info {
+      .title {
+      }
+      .meta-data {
+      }
+      .genres {
+      }
+    }
+  }
+  button {
+  }
+}
